@@ -129,6 +129,85 @@ const zoomOut = (event) => {
 zoomOn();
 zoomOut();
 
+//span-event
 const tarefa = (tarefaInput) => {
-    
-}
+  const selectMyTasks = document.getElementsByClassName("my-tasks")[0];
+  const taskName = document.createElement("span");
+  taskName.innerHTML = tarefaInput;
+  selectMyTasks.appendChild(taskName);
+};
+tarefa("exercicios");
+
+// adiciona cor ao elemento tasks
+const corTasks = (cor) => {
+  const tasksContainer = document.getElementsByClassName("my-tasks")[0];
+  const novaTask = document.createElement("div");
+  novaTask.className = "task";
+  novaTask.style.backgroundColor = cor;
+  tasksContainer.appendChild(novaTask);
+};
+novaTask("green");
+
+// troca classe da task selecionada
+const mudaClassTask = () => {
+  const selectedTask = document.getElementsByClassName("task selected");
+  const myTasks = document.getElementsByClassName("task");
+  myTasks.addEventListener("click", () => {
+    if (selectedTask.length === 0) {
+      event.target.className = "task selected";
+    } else {
+      event.target.className = "task";
+    }
+  });
+};
+mudaClassTask();
+
+// 10
+const setDayColor = () => {
+  let selectedTask = document.getElementsByClassName("task selected");
+  let days = document.querySelector("#days");
+  let taskDiv = document.querySelector(".task");
+  let taskColor = taskDiv.style.backgroundColor;
+
+  days.addEventListener("click", (event) => {
+    let eventTargetColor = event.target.style.color;
+    if (selectedTask.length > 0 && eventTargetColor !== taskColor) {
+      let color = selectedTask[0].style.backgroundColor; // Pega a cor de fundo do primeiro elemento salvo na variável "selectedTask" e salva na variável "color"
+      event.target.style.color = color; // atribui a cor salva na variável "color" ao evento alvo
+    } else if (eventTargetColor === taskColor) {
+      event.target.style.color = "rgb(119,119,119)"; // Altera a cor de fundo do evento alvo para "rgb(119, 119, 119)"
+    }
+  });
+};
+setDayColor();
+
+//  bonus
+const addNewTask = () => {
+  let getInputField = document.querySelector("#task-input");
+  let addInputButton = document.querySelector("#btn-add");
+  let getTaskList = document.querySelector(".task-list");
+
+  addInputButton.addEventListener("click", () => {
+    if (getInputField.value.length > 0) {
+      let newLi = document.createElement("li");
+      newLi.innerText = getInputField.value;
+
+      getTaskList.appendChild(newLi);
+      getInputField.value = "";
+    } else {
+      alert("Error: Digite ao menos 1 caractere.");
+    }
+  });
+
+  getInputField.addEventListener("keyup", (event) => {
+    if (event.key === "Enter" && getInputField.value.length > 0) {
+      let newLi = document.createElement("li");
+      newLi.innerText = getInputField.value;
+
+      getTaskList.appendChild(newLi);
+      getInputField.value = "";
+    }
+  });
+};
+
+addNewTask();
