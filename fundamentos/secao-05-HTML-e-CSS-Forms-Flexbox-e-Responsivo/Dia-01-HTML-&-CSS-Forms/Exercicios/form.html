@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <h1>Header da Pagina</h1>
+</header>
+<body>
+    <fieldset>
+        <form action="" class="form">
+          <label for="input-text">Nome: </label>  <input type="text" id="input-text" class="input-text">
+          <label for="input-email">Email: </label>  <input type="email" id="input-email" class="input-text">
+        <div class="radios">
+            <input type="radio" name="opcao1" id="radio1"><label for="radio1">Opção 1</label>
+            <input type="radio" name="opcao2" id="radio2"><label for="radio2">Opção 2</label>
+            <input type="radio" name="opcao3" id="radio3"><label for="radio3">Opção 3</label>
+            <input type="radio" name="opcao4" id="radio4"><label for="radio4">Opção 4</label>
+        </div>
+        <label for="textarea">Espaço para digitar a resposta:</label>
+        <br>
+        <textarea name="textarea" id="textarea" cols="40" rows="8"></textarea>
+        <br>
+        <label for="date">Data: </label>
+        <input type="datetime" name="date" id="date" placeholder=" dd/mm/aaaa">
+        <br>
+        <div>
+        <label for="agree1">Concordo 1</label> <input type="checkbox" name="agree" id="agree1">
+        <label for="agree2">Concordo 2</label> <input type="checkbox" name="agree" id="agree2">
+        </div>
+        </form>
+    </fieldset>
+    <div class="buttom">
+    <input type="submit" value="Enviar"><input type="reset" value="reset">
+</div>
+</body>
+</html>
