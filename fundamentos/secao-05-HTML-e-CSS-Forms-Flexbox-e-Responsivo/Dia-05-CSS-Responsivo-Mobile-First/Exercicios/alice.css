@@ -1,0 +1,103 @@
+@media screen and (min-width: 1024px) {
+ body {
+  background-color: rgb(187, 241, 238);
+  margin: 0 3%;
+ }
+ header p {
+  font-size: 280%;
+  text-align: center;
+ }
+ header ul {
+  font-size: 160%;
+ }
+ aside h2 {
+  font-size: 220%;
+ }
+ article h1 {
+  font-size: 300%;
+  text-align: center;
+ }
+ article p {
+  font-size: 180%;
+ }
+ .aside-one .aside-two , ul {
+  font-size: 160%;
+ }
+ footer {
+  font-size: 80%;
+  text-align: end;
+ }
+}
+
+@media screen (min-width: 768px) , (max-width: 1024px) {
+  body {
+   background-color: rgb(241, 187, 236);
+   margin: 0 3%;
+  }
+  header p {
+   font-size: 230%;
+   text-align: center;
+  }
+  header ul {
+   font-size: 120%;
+  }
+  aside h2 {
+   font-size: 170%;
+  }
+  article h1 {
+   font-size: 200%;
+   text-align: center;
+  }
+  article p {
+   font-size: 130%;
+  }
+  .aside-one .aside-two , ul {
+   font-size: 120%;
+  }
+  footer {
+   font-size: 50%;
+   text-align: end;
+  }
+ }
+
+ @media screen and (max-width: 768px){
+  body {
+   background-color: rgb(225, 254, 160);
+   margin: 0 5%;
+  }
+  header p {
+   font-size: 200%;
+   text-align: center;
+  }
+  header ul {
+   font-size: 120%;
+  }
+  aside h2 {
+   font-size: 170%;
+  }
+  article h1 {
+   font-size: 150%;
+   text-align: center;
+  }
+  article p {
+   font-size: 120%;
+  }
+  .aside-one .aside-two , ul {
+   font-size: 110%;
+  }
+  footer {
+   font-size: 70%;
+   text-align: end;
+  }
+ }
+html {
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+
+   
