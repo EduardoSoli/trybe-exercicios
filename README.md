@@ -7,10 +7,10 @@ Contém todas as atividades desenvolvidas por __[mim](https://github.com/Eduardo
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
 ##### Bloco 1: [Unix, Bash e Shell Script](https://github.com/EduardoSoli/trybe-exercicios/tree/main/fundamentos/secao-01-unix-e-shell)
-- [] 1.3 - Fundamentos do Desenvolvimento Web
-- [] 1.3 - Introdução - Unix & Shell
-- [] 1.3 - Unix & Bash - Parte 1
-- [] 1.4 - Unix & Bash - Parte 2
+-  [ ]  1.3 - Fundamentos do Desenvolvimento Web
+-  [ ]  1.3 - Introdução - Unix & Shell
+-  [ ]  1.3 - Unix & Bash - Parte 1
+-  [ ]  1.4 - Unix & Bash - Parte 2
 
 ##### Bloco 2: [Git, GitHub e Internet](https://github.com/EduardoSoli/trybe-exercicios/tree/main/fundamentos/secao-01-unix-e-shell/secao-02-git-github-e-internet)
 - [ ] 2.1 - Git & GitHub  - O que é e para que serve
