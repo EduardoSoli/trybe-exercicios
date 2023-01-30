@@ -6,18 +6,18 @@ Contém todas as atividades desenvolvidas por __[mim](https://github.com/Eduardo
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-##### Bloco 1: [Unix, Bash e Shell Script]()
-- [ ] 1.3 - Fundamentos do Desenvolvimento Web
-- [ ] 1.3 - Introdução - Unix & Shell
-- [ ] 1.3 - Unix & Bash - Parte 1
-- [ ] 1.4 - Unix & Bash - Parte 2
+##### Bloco 1: [Unix, Bash e Shell Script](https://github.com/EduardoSoli/trybe-exercicios/tree/main/fundamentos/secao-01-unix-e-shell)
+- [] 1.3 - Fundamentos do Desenvolvimento Web
+- [] 1.3 - Introdução - Unix & Shell
+- [] 1.3 - Unix & Bash - Parte 1
+- [] 1.4 - Unix & Bash - Parte 2
 
-##### Bloco 2: [Git, GitHub e Internet]()
+##### Bloco 2: [Git, GitHub e Internet](https://github.com/EduardoSoli/trybe-exercicios/tree/main/fundamentos/secao-01-unix-e-shell/secao-02-git-github-e-internet)
 - [ ] 2.1 - Git & GitHub  - O que é e para que serve
 - [ ] 2.2 - Git & GitHub - Entendendo os comandos
 - [ ] 2.3 - Internet - Entendendo como ela funciona
 
-##### Bloco 3: [Introdução à HTML e CSS]()
+##### Bloco 3: [Introdução à HTML e CSS](https://github.com/EduardoSoli/trybe-exercicios/tree/main/fundamentos/secao-02-introducao-a-html-e-css)
 - [ ] 3.1 - Introdução - HTML & CSS
 - [ ] 3.1 - HTML & CSS - Estruturas de página
 - [ ] 3.2 - HTML & CSS - Primeiros passos em CSS
@@ -25,7 +25,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://github.com/Eduardo
 - [ ] 3.4 - HTML Semântico
 - [ ] 3.5 - Projeto - Lessons Learned
 
-##### Bloco 4: [Introdução à JavaScript e Lógica de Programação]()
+##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/EduardoSoli/trybe-exercicios/tree/main/fundamentos/secao-03-introdu%C3%A7%C3%A3o-a-javaScript)
 - [ ] 4.1 - Introdução - JavaScript
 - [ ] 4.1 - JavaScript - Primeiros passos
 - [ ] 4.2 - JavaScript - Array e loop For
@@ -33,7 +33,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://github.com/Eduardo
 - [ ] 4.4 - JavaScript - Objetos e funções
 - [ ] 4.5 - Projeto - Playground Functions
 
-##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage]()
+##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/EduardoSoli/trybe-exercicios/tree/main/fundamentos/secao-04-JavaScript-DOM-Eventos-e-Web-Storage)
 - [ ] 5.1 - JavaScript - DOM e seletores
 - [ ] 5.2 - JavaScript - Trabalhando com elementos
 - [ ] 5.3 - JavaScript - Eventos
@@ -45,7 +45,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://github.com/Eduardo
 - [ ] 5.7 - (Bônus) Projeto - Adivinhe a Cor
 - [ ] 5.7 - (Bônus) Projeto - Carta Misteriosa
 
-##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo]()
+##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/EduardoSoli/trybe-exercicios/tree/main/fundamentos/secao-05-HTML-e-CSS-Forms-Flexbox-e-Responsivo)
 - [ ] 6.1 - HTML & CSS - Forms
 - [ ] 6.2 - Bibliotecas JavaScript e Frameworks CSS
 - [ ] 6.3 - Introdução - CSS Flexbox
